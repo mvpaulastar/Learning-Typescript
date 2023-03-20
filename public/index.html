@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>To-do List</h1>
+
+      <form class="input-area">
+        <label for="activity">Enter an activity</label>
+        <br />
+        <input type="text" name="activity" id="activity" required />
+        <br />
+        <button class="button">Submit</button>
+      </form>
+
+      <div class="border"></div>
+      <div class="list-container">
+        <ul class="list"></ul>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
