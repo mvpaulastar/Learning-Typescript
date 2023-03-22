@@ -12,6 +12,7 @@ export class TaskListItem {
     h1.innerText = detail;
     li.append(h1);
     li.append(delBtn);
+    console.log("New Task Created");
 
     delBtn.addEventListener("click", () => {
       this.container.removeChild(li);
