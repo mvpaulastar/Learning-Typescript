@@ -4,4 +4,5 @@ export class Task{
     public get detail():string{
         return this._detail;
     }
+
 }
